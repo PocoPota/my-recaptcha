@@ -43,5 +43,6 @@ recaptch.htmlのdiv id=recaptcha-rcを導入したサイトにコピペします
 * My reCAPTCHAはセキュリティを目的としたものではありません。
 * id名は導入するサイト内のものとできるだけ被らないように-rcという文字列が含まれています。
 * My reCAPTCHAは基本的にidで指定されているので同じページ内で2つ以上は導入できません。気が向いたら複数設置できるようにするかも
+* 他のCSSとかぶって表示がおかしくなる場合があります。
 
 My reCAPTCHAで不明な点がありましたらTwitter:@PocoPota_io か mail:pocopota.program@gmail.comにお願いします。
