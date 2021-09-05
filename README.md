@@ -36,6 +36,9 @@ recaptch.htmlのdiv id=recaptcha-rcを導入したサイトにコピペします
 |id=title-rc(27) 内のspan|選択する画像の種類の表示|span内の文字を変更|
 |id=images-rc(30) 内のimg|選択肢として表示する画像（9枚分）|srcのリンクを変更|
 |class=check-rc(31~47) のvalue|画像の正解、不正解の判別|valueが0なら不正解、valueが1なら正解|
+## 正解後の動作
+最初はid=recaptcha-judg-rc(15) にはvalue=falseが割り当てられています。正解するとvalueがtrueに置き換わります。<br>
+また
 # 導入にあたっての注意事項
 * My reCAPTCHAはセキュリティを目的としたものではありません。
 * id名は導入するサイト内のものとできるだけ被らないように-rcという文字列が含まれています。
