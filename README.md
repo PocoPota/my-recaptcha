@@ -45,3 +45,6 @@ recaptch.htmlのdiv id=recaptcha-rcを導入したサイトにコピペします
 * My reCAPTCHAは基本的にidで指定されているので同じページ内で2つ以上は導入できません。気が向いたら複数設置できるようにするかも
 
 My reCAPTCHAで不明な点がありましたらTwitter:@PocoPota_io か mail:pocopota.program@gmail.comにお願いします。
+
+# License
+The source code is licensed MIT. The website content is licensed CC BY 4.0,see LICENSE.
