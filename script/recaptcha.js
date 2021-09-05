@@ -1,3 +1,4 @@
+/*! My reCAPTCHA | MIT License | https://github.com/PocoPota/my-recaptcha/blob/main/LICENSE */
 $('#first-check-rc').click(function () {
     $('#load-rc').fadeIn();
     document.getElementById('check-rc').style.visibility = 'hidden';
