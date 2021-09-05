@@ -1,4 +1,5 @@
 # My reCAPTCHA
+reCAPTCHAを自分なりにカスタマイズできます。
 ## reCAPTCHAとは
 ![](https://pocopota.github.io/my-recaptcha/readme-img/recaptcha-checkbox.png)<br>
 Googleが提供しているサービスでbotなどの悪質なアクセスからウェブサイトを守るものです。<br>
