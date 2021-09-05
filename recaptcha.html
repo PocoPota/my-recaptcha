@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/recaptcha.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="recaptcha-rc">
+        <input type="hidden" value="false" id="recaptcha-judg-rc">
+        <div id="first-check-rc">
+            <div id="check-rc"></div>
+            <div id="load-rc"></div>
+            <div id="success-rc"><i class="ri-check-line"></i></div>
+            <div id="i-am-not-robot-rc">私はロボットではありません</div>
+            <div id="logo-rc">
+                <img src="images/logo.png">
+                <div id="name-rc">reCAPTCHA</div>
+            </div>
+        </div>
+        <div id="select-images-rc">
+            <div id="title-rc">
+                <span>intel</span>の画像をすべて選択してください
+            </div>
+            <div id="images-rc">
+                <label><input type="checkbox" value="1" id="check-rc-1" class="check-rc"><img src="images/in1.png"
+                        id="check-rc-1-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-2" class="check-rc"><img src="images/de.png"
+                        id="check-rc-2-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-3" class="check-rc"><img src="images/ry1.png"
+                        id="check-rc-3-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-4" class="check-rc"><img src="images/ry2.png"
+                        id="check-rc-4-img"></label>
+                <label><input type="checkbox" value="1" id="check-rc-5" class="check-rc"><img src="images/in2.png"
+                        id="check-rc-5-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-6" class="check-rc"><img src="images/me1.png"
+                        id="check-rc-6-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-7" class="check-rc"><img src="images/sn1.png"
+                        id="check-rc-7-img"></label>
+                <label><input type="checkbox" value="1" id="check-rc-8" class="check-rc"><img src="images/in3.png"
+                        id="check-rc-8-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-9" class="check-rc"><img src="images/ry3.png"
+                        id="check-rc-9-img"></label>
+            </div>
+            <div id="again-rc">正しい画像を選択してください。</div>
+            <div id="decision-rc">
+                <div id="decision-btn-rc">確認</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script/recaptcha.min.js"></script>
+</body>
+
+</html>
